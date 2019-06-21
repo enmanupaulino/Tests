@@ -7,18 +7,21 @@ using System.Threading.Tasks;
 
 namespace Test.Entidades
 {
-    public class Cargos
+    public class Empleados
     {
         [Key]
-        public int Idcargo { get; set; }
-        public string NombreCargo { get; set; }
+        public int Idempleado { get; set; }
         public int IdEstado { get; set; }
+        public int IdCargo  { get; set; }
+        public int IdPersona { get; set; }
 
-        public Cargos()
+        public Empleados()
         {
-            Idcargo = 0;
-            NombreCargo = string.Empty;
+            Idempleado = 0;
             IdEstado = 0;
+            IdCargo = 0;
+            IdPersona = 0;
         }
     }
+
 }
