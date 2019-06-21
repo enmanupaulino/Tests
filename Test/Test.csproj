@@ -50,12 +50,16 @@
     <Compile Include="Entidades\Cargos.cs" />
     <Compile Include="Entidades\Categorias.cs" />
     <Compile Include="Entidades\Compras.cs" />
+    <Compile Include="Entidades\DetalleCompra.cs" />
+    <Compile Include="Entidades\DetalleVenta.cs" />
     <Compile Include="Entidades\Empleados.cs" />
     <Compile Include="Entidades\Estados.cs" />
     <Compile Include="Entidades\Imagenes.cs" />
     <Compile Include="Entidades\Marcas.cs" />
     <Compile Include="Entidades\Modelos.cs" />
+    <Compile Include="Entidades\Permisos.cs" />
     <Compile Include="Entidades\Personas.cs" />
+    <Compile Include="Entidades\Productos.cs" />
     <Compile Include="Entidades\Proveedores.cs" />
     <Compile Include="Entidades\TipoPersona.cs" />
     <Compile Include="Entidades\TiposComprobantes.cs" />
