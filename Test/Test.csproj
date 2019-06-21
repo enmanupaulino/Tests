@@ -49,9 +49,13 @@
   <ItemGroup>
     <Compile Include="Entidades\Cargos.cs" />
     <Compile Include="Entidades\Empleados.cs" />
+    <Compile Include="Entidades\Estados.cs" />
     <Compile Include="Entidades\Imagenes.cs" />
     <Compile Include="Entidades\Personas.cs" />
+    <Compile Include="Entidades\Proveedores.cs" />
     <Compile Include="Entidades\TipoPersona.cs" />
+    <Compile Include="Entidades\Usuarios.cs" />
+    <Compile Include="Entidades\UsuariosPermisos.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
