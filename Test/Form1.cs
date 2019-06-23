@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Test.BLL;
+using Test.Entidades;
 
 namespace Test
 {
@@ -15,6 +17,14 @@ namespace Test
         public Form1()
         {
             InitializeComponent();
+            RepositorioBase<Cargos> db = new RepositorioBase<Cargos>();
+            Cargos cargos = new Cargos()
+            {
+                IdEstado = 0,
+                NombreCargo = "probando"
+            };
+            db.Guardar(cargos);
+            
         }
     }
 }

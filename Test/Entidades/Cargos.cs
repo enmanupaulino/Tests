@@ -9,6 +9,9 @@ namespace Test.Entidades
 {
     public class Cargos
     {
+        public int IdCargo;
+        public string Nombre;
+
         [Key]
         public int Idcargo { get; set; }
         public string NombreCargo { get; set; }
